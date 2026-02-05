@@ -5,7 +5,7 @@ authors = [{ name = "Valentin Yuryev", email = "valentin.yuryev@gmail.com" }]
 maintainers = [{ name = "Valentin Yuryev", email = "valentin.yuryev@gmail.com" }]
 description = "LLM-baased high-level task planner for robotic manipulation tasks."
 readme = "README.md"
-requires-python = "==3.12"
+requires-python = ">=3.12"
 dependencies = [
     "instructor",
 ]

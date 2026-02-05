@@ -6,13 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt update && apt install -y --no-install-recommends python3-pip git nano mesa-utils
 
 # Install basic python dependecies
-RUN pip3 install --upgrade pip uv --break-system-packages
-
-# Install python dependencies from pyproject.toml
-WORKDIR /workspace
-COPY pyproject.toml /workspace/pyproject.toml
-RUN pip3 install --break-system-packages .
-RUN rm -rf /workspace
+RUN pip3 install --upgrade uv --break-system-packages
 
 # Clean up
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
