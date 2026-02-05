@@ -1,0 +1,7 @@
+services:
+  dev:
+    restart: unless-stopped
+    build: .
+    command: tail -f /dev/null
+    volumes:
+      - ./:/workspace
