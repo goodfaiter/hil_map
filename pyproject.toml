@@ -1,5 +1,5 @@
 [project]
-name = "hil_map"
+name = "hill_map"
 version = "0.1.0"
 license = { file = "LICENSE" }
 authors = [

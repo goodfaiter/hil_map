@@ -353,7 +353,7 @@ wheels = [
 ]
 
 [[package]]
-name = "hil-map"
+name = "hill-map"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

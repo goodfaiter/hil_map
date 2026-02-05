@@ -1,6 +1,6 @@
 from openai import OpenAI
 from instructor import patch, Mode
-from hil_map.response_models.plan_model import HighLevelPlan, TaskPlan
+from hill_map.response_models.plan_model import HighLevelPlan, TaskPlan
 
 
 # prompt_text = f"Given a task: '{task}', provide a step-by-step plan to perform it. Be short and clear in your instructions."
