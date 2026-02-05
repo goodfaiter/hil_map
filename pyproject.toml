@@ -1,11 +1,29 @@
 [project]
-name = "highlevel_llm_manipulation_planner"
+name = "hil_map"
 version = "0.1.0"
-authors = [{ name = "Valentin Yuryev", email = "valentin.yuryev@gmail.com" }]
-maintainers = [{ name = "Valentin Yuryev", email = "valentin.yuryev@gmail.com" }]
-description = "LLM-baased high-level task planner for robotic manipulation tasks."
+license = { file = "LICENSE" }
+authors = [
+    { name = "Valentin Yuryev", email = "valentin.yuryev@gmail.com" },
+]
+maintainers = [
+    { name = "Valentin Yuryev", email = "valentin.yuryev@gmail.com" },
+]
+description = "LLM-based high-level task planner for robotic manipulation tasks."
 readme = "README.md"
 requires-python = ">=3.12"
+classifiers = [
+    # How mature is this project? Common values are
+    #   3 - Alpha
+    #   4 - Beta
+    #   5 - Production/Stable
+    "Development Status :: 3 - Alpha",
+    # Indicate who your project is intended for
+    "Intended Audience :: Education",
+    # Pick your license as you wish (see also "license" above)
+    "License :: OSI Approved :: MIT License",
+    # Specify the Python versions you support here.
+    "Programming Language :: Python :: 3.12",
+]
 dependencies = [
     "instructor",
 ]
